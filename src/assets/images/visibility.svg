@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon Locked Copy 3</title>
+    <g id="M-TAX-WEB-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="E00_MTAX_WEB" transform="translate(-875.000000, -579.000000)" stroke="#000000">
+            <g id="Group-2" transform="translate(530.000000, 495.000000)">
+                <g id="Champs-Identification" transform="translate(0.031153, 65.000000)">
+                    <g id="Icon/Group/Vue" transform="translate(340.000000, 10.000000)">
+                        <g id="Orion_eye" transform="translate(6.000000, 9.600000)">
+                            <path d="M9,0.15 C3.84,0.15 0.15,5.4 0.15,5.4 C0.15,5.4 3.84,10.65 9,10.65 C14.16,10.65 17.85,5.4 17.85,5.4 C17.85,5.4 14.16,0.15 9,0.15 Z" id="Path"></path>
+                            <circle id="Oval" cx="9" cy="5.25" r="3"></circle>
+                            <path d="M7.95,4.65 C7.73465349,5.02295082 7.7356716,5.48270039 7.95266775,5.85469381 C8.16966391,6.22668723 8.56935929,6.45387505 9,6.45" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

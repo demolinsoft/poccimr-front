@@ -1,0 +1,932 @@
+<div class="home">
+    <div class="tete">
+        <div class="logo">
+            <img src="../../assets/images/logo.png" alt="">
+        </div>
+        <div class="images-tete">
+            <div class="row">
+                <div class="col-md-2 img-2"><img src="../../assets/images/image2-1.png" alt=""></div>
+                <div class="col-md-2 img-2"><img src="../../assets/images/image2-2.png" alt=""></div>
+                <div class="col-md-2 img-2"><img src="../../assets/images/image2-3.png" alt=""></div>
+                <div class="cercle2 col-md-3">
+                    <h2 class="texte">Retraite bien préparée, avenir assuré !
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container-carre1" id="recta">
+            <h2 class="titre">{{texte}}</h2>
+            <div class="row">
+                <div class="col-md-2 carre2">
+                    <h2 class="ligne1" (click)="saisieAdhesion()" id="h1">
+                        <p class="chiffre c1" id="p1">1</p>
+                        <p class="pt" id="pt1">Saisie de l’adhésion</p>
+                    </h2>
+                </div>
+                <div class="col-md-3 carre2">
+                    <h2 class="ligne1" (click)="saisieContrat()" id="h2">
+                        <p class="chiffre" id="p2">2</p>
+                        <p class="ptc" id="pt2">Saisie du contrat de retraite</p>
+                    </h2>
+                </div>
+                <div class="col-md-3 carre2">
+                    <h2 class="ligne1">
+                        <p class="p2 chiffre">3</p>Signature de la convention de signature électronique et envoi du
+                        dossier à la CIMR
+                    </h2>
+                </div>
+                <div class="col-md-3 carre2">
+                    <h2 class="ligne1">
+                        <p class="p2 chiffre">4</p>Signature électronique des
+                        documents contractuels
+                    </h2>
+                </div>
+            </div>
+            <div class="contenu1" *ngIf="contenu">
+                <div class="cadre2">
+                    <h2 class="titre-piece">Veuillez télécharger les pièces justificatives ci-dessous et compléter
+                        les informations manquantes
+                    </h2>
+                    <div class="bouton">
+                        <div class="ajouter">
+                            <span class="material-icons">
+                                add
+                            </span>
+                            <h2 class="registre">Registre de commerce</h2>
+                        </div>
+                        <div class="ajouter">
+                            <span class="material-icons">
+                                add
+                            </span>
+                            <h2 class="registre r2">Attestation ICE</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="barre">
+                    <p>Ou</p>
+                </div>
+                <!-- <div>formulaire</div> -->
+                <div class="formulaire">
+                    <h2 class="remplir">Remplir directement le formulaire d’identification ci-dessous</h2>
+                    <div class="infos">
+                        <p class="inf">Informations générales</p>
+                        <form name="adhereForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="adhereForm">
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Raison sociale</mat-label>
+                                        <input matInput required name="raisonSociale" formControlName="raisonSociale"
+                                            id="raisonSociale" placeholder="Raison sociale">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Activité</mat-label>
+                                        <input matInput name="activite" formControlName="activite" id="activite"
+                                            placeholder="Activité">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form slt">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Sous activité</mat-label>
+                                        <mat-select required formControlName="sousActivite" name="sousActivite"
+                                            id="sousActivite">
+                                            <mat-option *ngFor="let activ of sousActivites" [value]="activ.id">
+                                                {{activ.libelleSousActivite}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Téléphone mobile</mat-label>
+                                        <input matInput name="numeroTel" formControlName="numeroTel" id="numeroTel"
+                                            placeholder="Téléphone mobile">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Numéro Registre</mat-label>
+                                        <input matInput name="numRC" formControlName="numRC" id="numrc"
+                                            placeholder="Numéro Registre">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Adresse</mat-label>
+                                        <input matInput name="adresse" formControlName="adresse" id="adresse"
+                                            placeholder="Adresse">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Nif</mat-label>
+                                        <input matInput name="nif" formControlName="nif" id="nif" placeholder="Nif">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Localité RC</mat-label>
+                                        <input matInput name="localiteRC" formControlName="localiteRC" id="numrc"
+                                            placeholder="Localité RC">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Fax</mat-label>
+                                        <input matInput name="fax" formControlName="fax" id="fax" placeholder="Fax">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                            <div class="bloc2">
+                                <div class="mat-form b1 slt">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Gestionnaire compte</mat-label>
+                                        <mat-select required formControlName="gestionnaireCompte"
+                                            name="gestionnaireCompte" id="gestionnaireCompte">
+                                            <mat-option *ngFor="let gest of gestionnaires" [value]="gest.id">
+                                                {{gest.prenom}}
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+
+                                <div class="mat-form b1 slt">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Mandataire</mat-label>
+                                        <mat-select required formControlName="mandataires" name="mandataires"
+                                            id="mandataires">
+                                            <mat-option *ngFor="let manda of mandataires" [value]="manda.id">
+                                                {{manda.prenom}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form date">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Date création</mat-label>
+                                        <input type="date" matInput name="dateCreation" formControlName="dateCreation"
+                                            id="dateCreation" placeholder="Date création">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <h2 class="texte-signe">Le signataire de l’adhesion ou des contrats de retraite ainsi que de tous
+                        les
+                        documents contractuels
+                        qui en découlent,
+                        doit être un mandataire social, (PDG, DG ou DGD) (ou deux mandataires sociaux en cas de
+                        signatures
+                        conjointes) ou
+                        une personne habilitée ayant pouvoir à cet effet.
+                    </h2>
+                    <div class="bloc_mandataire row">
+                        <div class="col-md-3">
+                            <div class="texte">Veuillez indiquer votre choix :</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="manda un_mand">Un mandataire social</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="manda">Deux mandataires sociaux</div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="manda">Personne habilitée</div>
+                        </div>
+                    </div>
+                    <div class="formu_mandataire">
+                        <div class="title">
+                            <div>Mandataire social</div>
+                            <div class="icon_x">
+                                <span class="material-icons">
+                                    clear
+                                </span>
+                            </div>
+                        </div>
+                        <form name="mandForm" role="form" novalidate (ngSubmit)="saveMand()" [formGroup]="mandForm">
+                            <div class="bloc1">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Nom</mat-label>
+                                        <input matInput name="nom" formControlName="nom" id="nom" placeholder="nom">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b2">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Prénom</mat-label>
+                                        <input required matInput name="prenom" formControlName="prenom" id="prenom"
+                                            placeholder="Prénom">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Nationalité</mat-label>
+                                        <mat-select formControlName="nationalite" name="nationalite"
+                                            id="nationalite">
+                                            <mat-option *ngFor="let national of nationalites" [value]="national">
+                                                {{national}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                    <!-- <mat-form-field appearance="legacy">
+                                        <mat-label>Nationalité</mat-label>
+                                        <input matInput name="nationalite" formControlName="nationalite"
+                                            id="nationalite" placeholder="Nationalité">
+                                    </mat-form-field> -->
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>CIN</mat-label>
+                                        <input matInput name="cin" formControlName="cin" id="cin" placeholder="CIN">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Fonction</mat-label>
+                                        <mat-select formControlName="fonction" name="fonction"
+                                            id="fonction">
+                                            <mat-option *ngFor="let fonct of fonctions" [value]="fonct">
+                                                {{fonct}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                    <!-- <mat-form-field appearance="legacy">
+                                        <mat-label>Fonction</mat-label>
+                                        <input matInput name="fonction" formControlName="fonction" id="fonction"
+                                            placeholder="Fonction">
+                                    </mat-form-field> -->
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Email</mat-label>
+                                        <input matInput name="email" formControlName="nationalite" id="nationalite"
+                                            placeholder="Nationalité">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Numéro Mobile GSM</mat-label>
+                                        <input matInput name="numeroMobilegsm" formControlName="numeroMobilegsm"
+                                            id="numeroMobilegsm" placeholder="Numéro Mobile GSM">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Téléphone Fixe</mat-label>
+                                        <input matInput name="numeroTelFixe" formControlName="numeroTelFixe"
+                                            id="numeroTelFixe" placeholder="Téléphone Fixe">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1 date">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Date debut validité</mat-label>
+                                        <input matInput name="dateDebutValidite" formControlName="dateDebutValidite"
+                                            id="dateDebutValidite" type="date" placeholder="Date debut validité">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1 date">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Date fin validité</mat-label>
+                                        <input type="date" matInput name="dateFinValidite"
+                                            formControlName="dateFinValidite" id="dateFinValidite"
+                                            placeholder="Date fin validité">
+                                    </mat-form-field>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                    <button class="ajout ajoutManda" (click)="saveMand()"
+                        [disabled]="mandForm.invalid || isSavingManda">
+                        <div><span class="material-icons">
+                                add
+                            </span>
+                        </div>
+
+                        <div class="ajouth2">Ajouter</div>
+                    </button>
+                    <div class="formu_mandataire">
+                        <div class="title">
+                            <div>Sous Activité</div>
+                            <div class="icon_x">
+                                <span class="material-icons">
+                                    clear
+                                </span>
+                            </div>
+                        </div>
+                        <form name="sousForm" role="form" novalidate (ngSubmit)="saveSous()" [formGroup]="sousForm">
+                            <div class="bloc1">
+                                <div class="mat-form form2">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Libelle sous activité</mat-label>
+                                        <input matInput name="libelleSousActivite" formControlName="libelleSousActivite"
+                                            id="libelleSousActivite" placeholder="Libelle sous activité">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <button class="ajout ajoutSous" (click)="saveSous()" [disabled]="sousForm.invalid">
+                        <div><span class="material-icons">
+                                add
+                            </span>
+                        </div>
+                        <div class="ajouth2">Ajouter</div>
+                    </button>
+
+                    <div class="ajout3">
+                        <h2 class="texte-signe">Télécharger éventuellement tout document attestation des pouvoirs
+                        </h2>
+                        <div class="ajouter">
+                            <span class="material-icons">
+                                add
+                            </span>
+                            <h2 class="registre r2">Pouvoir du signataire</h2>
+                        </div>
+                    </div>
+                    <h2 class="texte-signe tt2">Vous pouvez définir votre gestionnaire compte adhérent
+                        différent du signataire, il aura pour mission
+                        de gérer le dossier adhésion sans pouvoirs de signature
+                    </h2>
+                    <div class="formu_mandataire">
+                        <div class="title">
+                            <div>Gestionnaire de compte</div>
+                            <div class="icon_x">
+                                <span class="material-icons">
+                                    clear
+                                </span>
+                            </div>
+                        </div>
+                        <form name="gestForm" role="form" novalidate (ngSubmit)="saveGestion()" [formGroup]="gestForm">
+                            <div class="bloc1">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Nom</mat-label>
+                                        <input matInput name="nom" formControlName="nom" id="nom" placeholder="nom">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b2">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Prénom</mat-label>
+                                        <input matInput required name="prenom" formControlName="prenom" id="prenom"
+                                            placeholder="Prénom">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Nationalité</mat-label>
+                                        <mat-select formControlName="nationalite" name="nationalite"
+                                            id="nationalite">
+                                            <mat-option *ngFor="let national of nationalites" [value]="national">
+                                                {{national}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>CIN</mat-label>
+                                        <input matInput name="cin" formControlName="cin" id="cin" placeholder="CIN">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Fonction</mat-label>
+                                        <mat-select formControlName="fonction" name="fonction"
+                                            id="fonction">
+                                            <mat-option *ngFor="let fonct of fonctions" [value]="fonct">
+                                                {{fonct}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Email</mat-label>
+                                        <input matInput name="email" formControlName="nationalite" id="nationalite"
+                                            placeholder="Nationalité">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Numéro Mobile GSM</mat-label>
+                                        <input matInput name="numeroMobilegsm" formControlName="numeroMobilegsm"
+                                            id="numeroMobilegsm" placeholder="Numéro Mobile GSM">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Téléphone Fixe</mat-label>
+                                        <input matInput name="numeroTelFixe" formControlName="numeroTelFixe"
+                                            id="numeroTelFixe" placeholder="Téléphone Fixe">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                        </form>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h2 class="texte-auto">Autorisation de vote en assemblée générale</h2>
+                            </div>
+                            <div class="col-md-1">
+                                <h2 class="autooui">Oui</h2>
+                            </div>
+                            <div class="col-md-1">
+                                <h2 class="autonon autooui">Non</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="ajout ajoutGest" (click)="saveGestion()"
+                        [disabled]="gestForm.invalid || isSavingGestion">
+                        <div><span class="material-icons">
+                                add
+                            </span>
+                        </div>
+
+                        <div class="ajouth2">Ajouter</div>
+                    </button>
+                    <h2 class="texte-signe tt2">Consentement : <br>
+                        En cliquant sur valider, nous confirmons la collecte des consentements de toutes les personnes
+                        concernées (mandataire,
+                        gestionnaire de compte etc.) pour le traitement de leurs données personnelles conformément à la
+                        loi
+                        09-08.
+                    </h2>
+                </div>
+                <!-- <div><h2 *ngFor="let act of sousActivites">{{act.libelle_sous_activite}}</h2></div> -->
+                <div class="row en_bas">
+                    <div class="col-md-3">
+                        <button class="retour" (click)="retour()">Retour</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="sauver" [disabled]="adhereForm.invalid || isSaving"
+                            (click)="saveAdherent()">Sauvegarder</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="suiv">Suivant</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- saisie contrat -->
+            <div class="contenu2" *ngIf="!contenu">
+                <div class="formulaire">
+                    <div class="bloc_mandataire row">
+                        <div class="col-md-6">
+                            <div class="texte">Vous souhaiter souscrire à un contrat groupe ou individuel ?</div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="manda un_mand">Contrat groupe</div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="manda">Contrat individuel</div>
+                        </div>
+                    </div>
+                    <h2 class="remplir">Notre sélection de produits CIMR adaptés à vos besoins</h2>
+                    <div class="infos">
+                        <p class="inf">Cochez le produit CIMR auquel vous voulez souscrire</p>
+                    </div>
+                    <div class="tabb">
+                        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                            <!-- Checkbox Column -->
+                            <ng-container matColumnDef="select">
+                                <th mat-header-cell *matHeaderCellDef>
+                                    <!-- <mat-checkbox (change)="$event ? masterToggle() : null"
+                                        [checked]="selection.hasValue() && isAllSelected()"
+                                        [indeterminate]="selection.hasValue() && !isAllSelected()"
+                                        [aria-label]="checkboxLabel()">
+                                    </mat-checkbox> -->
+                                </th>
+                                <td mat-cell *matCellDef="let row">
+                                    <mat-checkbox (click)="selectRow(row)" [checked]="selectedForm === row"
+                                        [aria-label]="(selectedForm === row)? 'select' : 'deselect'">
+                                    </mat-checkbox>
+                                </td>
+                            </ng-container>
+
+                            <!-- Position Column -->
+                            <ng-container matColumnDef="produit">
+                                <th mat-header-cell *matHeaderCellDef> Produits </th>
+                                <td mat-cell *matCellDef="let element"> {{element.produit}} </td>
+                            </ng-container>
+
+                            <!-- Name Column -->
+                            <ng-container matColumnDef="description">
+                                <th mat-header-cell *matHeaderCellDef> Description </th>
+                                <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+                            </ng-container>
+
+                            <!-- Weight Column -->
+                            <ng-container matColumnDef="garanties">
+                                <th mat-header-cell *matHeaderCellDef> Garanties </th>
+                                <td mat-cell *matCellDef="let element"> {{element.garanties}} </td>
+                            </ng-container>
+
+                            <!-- Symbol Column -->
+                            <!-- <ng-container matColumnDef="symbol">
+                                <th mat-header-cell *matHeaderCellDef> Symbol </th>
+                                <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+                            </ng-container> -->
+
+                            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                            <tr mat-row *matRowDef="let row; columns: displayedColumns;"
+                                (click)="selection.toggle(row)">
+                            </tr>
+                        </table>
+
+                    </div>
+                    <div class="infos">
+                        <p class="inf">Préciser les caractéristiques du produit</p>
+                    </div>
+
+                    <div class="formu_mandataire">
+                        <div class="title">
+                            <div class="txt">
+                                <p>Produit</p>
+                                <p class="ptxt">{{selectedForm.produit}}</p>
+                            </div>
+                            <div class="txt">
+                                <p>Nature assiette</p>
+                                <p class="ptxt">{{selectedForm.description}}</p>
+                            </div>
+                            <div class="txt txt2">
+                                <p>Date effet de souscription</p>
+                                <p class="ptxt">{{selectedForm.garanties}}</p>
+                            </div>
+                            <div class="icon_x">
+                                <span class="material-icons">
+                                    clear
+                                </span>
+                            </div>
+                        </div>
+                        <form name="categoForm" role="form" novalidate (ngSubmit)="saveCategorie()"
+                            [formGroup]="categoForm">
+
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>N° Catégorie</mat-label>
+                                        <input matInput name="numCategorie" formControlName="numCategorie"
+                                            id="numCategorie" placeholder="N° Catégorie" type="number">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Catégorie</mat-label>
+                                        <input matInput name="categorie" formControlName="categorie" id="categorie"
+                                            required placeholder="Catégorie">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>% Part Salaire</mat-label>
+                                        <input matInput name="partsalariale" formControlName="partsalariale"
+                                            id="partsalariale" placeholder="% Part Salaire">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>% Part patronale</mat-label>
+                                        <input matInput name="partpatronale" formControlName="partpatronale"
+                                            id="partpatronale" placeholder="% Part patronale">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Masse salariale</mat-label>
+                                        <input matInput name="massesalariale" formControlName="massesalariale"
+                                            type="number" id="massesalariale" placeholder="Masse salariale">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Effectif</mat-label>
+                                        <input matInput name="effectif" formControlName="effectif" type="number"
+                                            id="effectif" placeholder="Effectif">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b3">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Option</mat-label>
+                                        <input matInput name="optionX" formControlName="optionX" id="option"
+                                            placeholder="Option">
+                                    </mat-form-field>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                    <button class="ajout ajoutCate" [disabled]="categoForm.invalid" (click)="saveCategorie()">
+                        <div><span class="material-icons">
+                                add
+                            </span>
+                        </div>
+
+                        <div class="ajouth2">Ajouter</div>
+                    </button>
+                    <div class="infos">
+                        <p class="inf">Préciser les délégataires</p>
+                    </div>
+
+                    <div class="formu_mandataire">
+                        <div class="title">
+                            <div>Délégataire 1</div>
+                            <div class="icon_x">
+                                <span class="material-icons">
+                                    clear
+                                </span>
+                            </div>
+                        </div>
+                        <form name="delegaForm" role="form" novalidate (ngSubmit)="saveDelegataire()"
+                            [formGroup]="delegaForm">
+                            <div class="bloc1">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Nom</mat-label>
+                                        <input matInput name="nom" formControlName="nom" id="nom-dele"
+                                            placeholder="nom">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b2">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Prénom</mat-label>
+                                        <input required matInput name="prenom" formControlName="prenom" id="prenom-dele"
+                                            placeholder="Prénom">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Nationalité</mat-label>
+                                        <mat-select formControlName="nationalite" name="nationalite"
+                                            id="nationalite-del">
+                                            <mat-option *ngFor="let national of nationalites" [value]="national">
+                                                {{national}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>CIN</mat-label>
+                                        <input matInput name="cin" formControlName="cin" id="cin-dele"
+                                            placeholder="CIN">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Fonction</mat-label>
+                                        <mat-select formControlName="fonction" name="fonction"
+                                            id="fonction-del">
+                                            <mat-option *ngFor="let fonct of fonctions" [value]="fonct">
+                                                {{fonct}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Email</mat-label>
+                                        <input matInput name="email" formControlName="nationalite" id="nationalite-de"
+                                            placeholder="Email">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Numéro Mobile GSM</mat-label>
+                                        <input matInput name="numeroMobilegsm" formControlName="numeroMobilegsm"
+                                            id="numeroMobilegsm-dele" placeholder="Numéro Mobile GSM">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Téléphone Fixe</mat-label>
+                                        <input matInput name="numeroTelFixe" formControlName="numeroTelFixe"
+                                            id="numeroTelFixe-dele" placeholder="Téléphone Fixe">
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                            <div class="bloc2">
+                                <div class="mat-form b1 date">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Date debut validité</mat-label>
+                                        <input matInput name="dateDebutValidite" formControlName="dateDebutValidite"
+                                            id="dateDebutValidite-dele" type="date" placeholder="Date debut validité">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1 date">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Date fin validité</mat-label>
+                                        <input type="date" matInput name="dateFinValidite"
+                                            formControlName="dateFinValidite" id="dateFinValidite-dele"
+                                            placeholder="Date fin validité">
+                                    </mat-form-field>
+                                </div>
+
+                            </div>
+
+                            <!-- <div class="row">
+                                <div class="col-md-5">
+                                    <h2 class="texte-auto">Autorisation de vote en assemblée générale</h2>
+                                </div>
+                                <div class="col-md-1">
+                                    <h2 class="autooui">Oui</h2>
+                                </div>
+                                <div class="col-md-1">
+                                    <h2 class="autonon autooui">Non</h2>
+                                </div>
+                            </div>
+                            <h2 class="texte-auto">Préciser les habilitations du délégataire par type d’intervention
+                            </h2> -->
+                            <!-- <div class="bloc1">
+                                <div class="mat-form form2">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label></mat-label>
+                                        <textarea matInput name="" formControlName="" id="libelleSo"></textarea>
+                                    </mat-form-field>
+                                </div>
+                            </div> -->
+                        </form>
+                    </div>
+                    <button class="ajout ajoutDel" [disabled]="delegaForm.invalid" (click)="saveDelegataire()">
+                        <div><span class="material-icons">
+                                add
+                            </span>
+                        </div>
+
+                        <div class="ajouth2">Ajouter</div>
+                    </button>
+                    <!-- <div class="infos">
+                        <p class="inf">Choisir le mode de reglement</p>
+                    </div>
+                    <div class="bloc2 mode">
+                        <div class="mat-form slt">
+                            <mat-form-field appearance="legacy">
+                                <mat-label>Mode de règlement</mat-label>
+                                <mat-select name="mode" id="mode">
+                                    <mat-option>
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div> -->
+                    <!-- <div class="bloc_mandataire row">
+                        <div class="col-md-4">
+                            <div class="texte">Veuiller joindre votre RIB compte courant</div>
+                            <div class="bouton">
+                                <div class="ajouter">
+                                    <span class="material-icons">
+                                        add
+                                    </span>
+                                    <h2 class="registre r2">Attestation RIB</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="milieu">
+                                <p>Ou</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="texte">Saisir votre RIB compte courant</div>
+                            <div class="mat-form b1 banque">
+                                <mat-form-field appearance="legacy">
+                                    <mat-label>Banque</mat-label>
+                                    <input matInput name="banque" id="banque" placeholder="Banque">
+                                </mat-form-field>
+                            </div>
+                            <div class="mat-form b1 banque">
+                                <mat-form-field appearance="legacy">
+                                    <mat-label>Compte</mat-label>
+                                    <input matInput name="compte" id="compte" placeholder="Compte">
+                                </mat-form-field>
+                            </div>
+                        </div>
+
+                    </div> -->
+                    <div class="infos">
+                        <p class="inf">Souscription</p>
+                        <form name="souscripForm" role="form" novalidate (ngSubmit)="saveSouscrip()"
+                            [formGroup]="souscripForm">
+                            <div class="bloc2">
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Numéro Compte</mat-label>
+                                        <input required matInput required name="numCompte" formControlName="numCompte"
+                                            id="numCompte" placeholder="Numéro Compte">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form b1">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Banque</mat-label>
+                                        <input matInput name="banque" formControlName="banque" id="banque"
+                                            placeholder="Banque">
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form slt">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Mode Paiement</mat-label>
+                                        <mat-select formControlName="modePaiement" name="modePaiement"
+                                            id="modePaiement">
+                                            <mat-option value="Virement">
+                                                Virement</mat-option>
+                                            <mat-option value="Chéque">
+                                                Chéque</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+
+
+                            <div class="bloc2">
+                                <div class="mat-form b1 slt">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Type Contrat</mat-label>
+                                        <mat-select formControlName="typeContrat" name="typeContrat" id="typeContrat">
+                                            <mat-option value="CDI">
+                                                CDI
+                                            </mat-option>
+                                            <mat-option value="CDD">
+                                                CDD
+                                            </mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+
+                                <div class="mat-form b1 slt">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>Catégorie</mat-label>
+                                        <mat-select required formControlName="category" name="category" id="category">
+                                            <mat-option *ngFor="let cat of categories" [value]="cat.id">
+                                                {{cat.categorie}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                                <div class="mat-form date">
+                                    <mat-form-field appearance="legacy">
+                                        <mat-label>délégataire</mat-label>
+                                        <mat-select required formControlName="delegataire" name="delegataire"
+                                            id="delegataire">
+                                            <mat-option *ngFor="let del of delegataires" [value]="del.id">
+                                                {{del.prenom}}</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- <button class="ajoutContrat">
+                    <div><span class="material-icons">
+                            add
+                        </span>
+                    </div>
+
+                    <div class="ajouconth2">Ajouter un contrat de retraite</div>
+                </button> -->
+
+                <div class="row en_bas">
+                    <div class="col-md-3">
+                        <button class="retour">Retour</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button [disabled]="souscripForm.invalid" class="sauver ajoutSouscrip"
+                            (click)="saveSouscrip()">Sauvegarder</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="suiv">Suivant</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="succe" *ngIf="afficherMess">{{message}}</div>
+        </div>
+    </div>
+    <div class="assiste">
+        <button>Assistance</button>
+    </div>
+</div>

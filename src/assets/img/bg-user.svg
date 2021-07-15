@@ -1,0 +1,600 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1051" height="119" viewBox="0 0 1051 119">
+    <defs>
+        <path id="prefix__a" d="M0.003 0.569L33.075 0.569 33.075 16.933 0.003 16.933z"/>
+        <path id="prefix__c" d="M0.665 0.708L23.815 0.708 23.815 10.022 0.665 10.022z"/>
+        <path id="prefix__e" d="M0.757 0.708L26.112 0.708 26.112 1.072 0.757 1.072z"/>
+        <path id="prefix__g" d="M0.08 0.708L13.31 0.708 13.31 2.066 0.08 2.066z"/>
+        <path id="prefix__i" d="M0.168 0.17L12.879 0.17 12.879 29.013 0.168 29.013z"/>
+        <path id="prefix__k" d="M0.944 0.708L25.197 0.708 25.197 6.044 0.944 6.044z"/>
+        <path id="prefix__m" d="M0.033 0.708L45.231 0.708 45.231 14.995 0.033 14.995z"/>
+        <path id="prefix__o" d="M0.102 0.708L11.125 0.708 11.125 24.942 0.102 24.942z"/>
+        <path id="prefix__q" d="M0.033 0.708L8.852 0.708 8.852 7.039 0.033 7.039z"/>
+        <path id="prefix__s" d="M0.112 0.708L27.672 0.708 27.672 14.996 0.112 14.996z"/>
+        <path id="prefix__u" d="M0.873 0.708L12.999 0.708 12.999 14.996 0.873 14.996z"/>
+        <path id="prefix__w" d="M0.132 0.708L12.258 0.708 12.258 12.012 0.132 12.012z"/>
+        <path id="prefix__y" d="M0.168 0.107L4.06 0.107 4.06 42.875 0.168 42.875z"/>
+        <path id="prefix__A" d="M0.439 0.164L25.794 0.164 25.794 1.609 0.439 1.609z"/>
+        <path id="prefix__C" d="M0.517 0.133L34.691 0.133 34.691 11.525 0.517 11.525z"/>
+        <path id="prefix__E" d="M0.3 0.133L1.3 0.133 1.3 11.525 0.3 11.525z"/>
+        <path id="prefix__G" d="M0.168 0.507L6.265 0.507 6.265 15.426 0.168 15.426z"/>
+        <path id="prefix__I" d="M0.78 0.164L27.238 0.164 27.238 1.609 0.78 1.609z"/>
+        <path id="prefix__K" d="M0.955 0.164L18.594 0.164 18.594 1.609 0.955 1.609z"/>
+        <path id="prefix__M" d="M0.359 0.164L1.359 0.164 1.359 1.609 0.359 1.609z"/>
+        <path id="prefix__O" d="M0.54 0.164L1.54 0.164 1.54 1.609 0.54 1.609z"/>
+        <path id="prefix__Q" d="M0.247 0.569L33.199 0.569 33.199 16.933 0.247 16.933z"/>
+        <path id="prefix__S" d="M0.907 0.708L23.973 0.708 23.973 10.022 0.907 10.022z"/>
+        <path id="prefix__U" d="M0.002 0.708L25.265 0.708 25.265 1.072 0.002 1.072z"/>
+        <path id="prefix__W" d="M0.324 0.708L13.506 0.708 13.506 2.066 0.324 2.066z"/>
+        <path id="prefix__Y" d="M0.189 0.708L24.354 0.708 24.354 6.044 0.189 6.044z"/>
+        <path id="prefix__aa" d="M0.277 0.708L45.312 0.708 45.312 14.995 0.277 14.995z"/>
+        <path id="prefix__ac" d="M0.345 0.708L11.329 0.708 11.329 24.942 0.345 24.942z"/>
+        <path id="prefix__ae" d="M0.277 0.708L9.064 0.708 9.064 7.039 0.277 7.039z"/>
+        <path id="prefix__ag" d="M0.355 0.708L27.816 0.708 27.816 14.996 0.355 14.996z"/>
+        <path id="prefix__ai" d="M0.116 0.708L12.2 0.708 12.2 14.996 0.116 14.996z"/>
+        <path id="prefix__ak" d="M0.375 0.708L12.458 0.708 12.458 12.012 0.375 12.012z"/>
+        <path id="prefix__am" d="M0.681 0.164L25.945 0.164 25.945 1.609 0.681 1.609z"/>
+        <path id="prefix__ao" d="M0.76 0.133L34.81 0.133 34.81 11.525 0.76 11.525z"/>
+        <path id="prefix__aq" d="M0.544 0.133L1.54 0.133 1.54 11.525 0.544 11.525z"/>
+        <path id="prefix__as" d="M0.025 0.164L26.387 0.164 26.387 1.609 0.025 1.609z"/>
+        <path id="prefix__au" d="M0.199 0.164L17.774 0.164 17.774 1.609 0.199 1.609z"/>
+        <path id="prefix__aw" d="M0.602 0.164L1.599 0.164 1.599 1.609 0.602 1.609z"/>
+        <path id="prefix__ay" d="M0.782 0.164L1.779 0.164 1.779 1.609 0.782 1.609z"/>
+        <path id="prefix__aA" d="M0.476 0.708L33.428 0.708 33.428 17.996 0.476 17.996z"/>
+        <path id="prefix__aC" d="M0.734 0.413L24.899 0.413 24.899 8.829 0.734 8.829z"/>
+        <path id="prefix__aE" d="M0.344 0.257L12.427 0.257 12.427 0.708 0.344 0.708z"/>
+        <path id="prefix__aG" d="M0.671 0.352L28.131 0.352 28.131 28.678 0.671 28.678z"/>
+        <path id="prefix__aI" d="M0.456 0.786L24.621 0.786 24.621 5.22 0.456 5.22z"/>
+        <path id="prefix__aK" d="M0.218 0.849L45.252 0.849 45.252 14.242 0.218 14.242z"/>
+        <path id="prefix__aM" d="M0.426 0.818L11.409 0.818 11.409 24.167 0.426 24.167z"/>
+        <path id="prefix__aO" d="M0.698 0.693L9.485 0.693 9.485 6.122 0.698 6.122z"/>
+        <path id="prefix__aQ" d="M0.878 0.849L28.337 0.849 28.337 14.242 0.878 14.242z"/>
+        <path id="prefix__aS" d="M0.449 0.849L12.532 0.849 12.532 14.242 0.449 14.242z"/>
+        <path id="prefix__aU" d="M0.294 0.226L12.376 0.226 12.376 10.633 0.294 10.633z"/>
+        <path id="prefix__aW" d="M0.756 0.708L26.019 0.708 26.019 3.063 0.756 3.063z"/>
+        <path id="prefix__aY" d="M0.858 0.708L34.908 0.708 34.908 13.019 0.858 13.019z"/>
+        <path id="prefix__ba" d="M0.251 0.708L1.247 0.708 1.247 13.019 0.251 13.019z"/>
+        <path id="prefix__bc" d="M0.313 0.708L26.674 0.708 26.674 3.063 0.313 3.063z"/>
+        <path id="prefix__be" d="M0.853 0.708L19.526 0.708 19.526 3.063 0.853 3.063z"/>
+        <path id="prefix__bg" d="M0.192 0.708L1.189 0.708 1.189 3.063 0.192 3.063z"/>
+        <path id="prefix__bi" d="M0.012 0.708L1.009 0.708 1.009 3.063 0.012 3.063z"/>
+        <path id="prefix__bk" d="M0.72 0.708L33.667 0.708 33.667 17.996 0.72 17.996z"/>
+        <path id="prefix__bm" d="M0.978 0.413L25.139 0.413 25.139 8.829 0.978 8.829z"/>
+        <path id="prefix__bo" d="M0.588 0.257L12.668 0.257 12.668 0.708 0.588 0.708z"/>
+        <path id="prefix__bq" d="M0.916 0.352L17.103 0.352 17.103 28.678 0.916 28.678z"/>
+        <path id="prefix__bs" d="M0.7 0.786L24.861 0.786 24.861 5.22 0.7 5.22z"/>
+        <path id="prefix__bu" d="M0.461 0.849L45.489 0.849 45.489 14.242 0.461 14.242z"/>
+        <path id="prefix__bw" d="M0.669 0.818L11.651 0.818 11.651 24.167 0.669 24.167z"/>
+        <path id="prefix__by" d="M0.941 0.693L9.726 0.693 9.726 6.122 0.941 6.122z"/>
+        <path id="prefix__bA" d="M0.126 0.849L27.581 0.849 27.581 14.242 0.126 14.242z"/>
+        <path id="prefix__bC" d="M0.693 0.849L12.775 0.849 12.775 14.242 0.693 14.242z"/>
+        <path id="prefix__bE" d="M0.538 0.226L12.618 0.226 12.618 10.633 0.538 10.633z"/>
+        <path id="prefix__bG" d="M0.734 0.011L8.137 0.011 8.137 42.819 0.734 42.819z"/>
+        <path id="prefix__bI" d="M0.002 0.708L25.263 0.708 25.263 3.063 0.002 3.063z"/>
+        <path id="prefix__bK" d="M0.105 0.708L34.15 0.708 34.15 13.019 0.105 13.019z"/>
+        <path id="prefix__bM" d="M0.495 0.708L1.491 0.708 1.491 13.019 0.495 13.019z"/>
+        <path id="prefix__bO" d="M0.531 0.418L10.13 0.418 10.13 15.351 0.531 15.351z"/>
+        <path id="prefix__bQ" d="M0.557 0.708L26.915 0.708 26.915 3.063 0.557 3.063z"/>
+        <path id="prefix__bS" d="M0.101 0.708L18.771 0.708 18.771 3.063 0.101 3.063z"/>
+        <path id="prefix__bU" d="M0.436 0.708L1.433 0.708 1.433 3.063 0.436 3.063z"/>
+        <path id="prefix__bW" d="M0.256 0.708L1.252 0.708 1.252 3.063 0.256 3.063z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".128">
+        <g transform="translate(1 1) translate(208 100.958)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M33.075 26.428V15.954c0-3.352-1.152-6.454-3.108-8.98M.003 15.953C.003 7.456 7.406.569 16.539.569c3.171 0 6.134.83 8.65 2.27" mask="url(#prefix__b)"/>
+        </g>
+        <g transform="translate(1 1) translate(236)">
+            <mask id="prefix__d" fill="#fff">
+                <use xlink:href="#prefix__c"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M12.24 10.022h5.223c3.508 0 6.352-2.894 6.352-6.464 0-3.57-2.844-6.465-6.352-6.465H7.017C3.51-2.907.665-.013.665 3.558" mask="url(#prefix__d)"/>
+        </g>
+        <g transform="translate(1 1) translate(140)">
+            <mask id="prefix__f" fill="#fff">
+                <use xlink:href="#prefix__e"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M26.112-32.746h-10.27c-3.287 0-6.328 1.179-8.806 3.179m8.806 30.639C7.51 1.072.757-6.5.757-15.837c0-3.242.813-6.272 2.226-8.845" mask="url(#prefix__f)"/>
+        </g>
+        <g transform="translate(1 1) translate(198)">
+            <mask id="prefix__h" fill="#fff">
+                <use xlink:href="#prefix__g"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M7.1 2.066c3.43 0 6.21-2.672 6.21-5.968 0-3.295-2.78-5.968-6.21-5.968H.08" mask="url(#prefix__h)"/>
+        </g>
+        <g transform="translate(1 1) translate(0 .901)">
+            <mask id="prefix__j" fill="#fff">
+                <use xlink:href="#prefix__i"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M-1.452 29.013c7.915 0 14.331-6.456 14.331-14.421C12.88 6.627 6.463.17-1.45.17c-7.916 0-14.332 6.457-14.332 14.422" mask="url(#prefix__j)"/>
+        </g>
+        <g transform="translate(1 1) translate(88)">
+            <mask id="prefix__l" fill="#fff">
+                <use xlink:href="#prefix__k"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M.944-29.761V-6.53C.944.415 6.374 6.044 13.07 6.044c6.698 0 12.127-5.629 12.127-12.573v-5.489" mask="url(#prefix__l)"/>
+        </g>
+        <g transform="translate(1 1) translate(176)">
+            <mask id="prefix__n" fill="#fff">
+                <use xlink:href="#prefix__m"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M.033-23.794h26.76c10.183 0 18.438 8.683 18.438 19.395 0 10.711-8.255 19.394-18.439 19.394h-8.05" mask="url(#prefix__n)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M248.792 15.99v12.292c0 5.296-4.436 9.59-9.907 9.59h-7.732M62.487 22.953v8.613c0 6.23 4.936 11.279 11.024 11.279M47.053 83.623V70.417c0-7.604 5.647-13.975 13.23-15.637M194.774 34.888h15.647c9.01 0 16.557 7.217 18.527 16.908" transform="translate(1 1)"/>
+        <path stroke="#CCA500" stroke-width="3.018" d="M226.744 17.317c0-4.029 3.208-7.295 7.165-7.295s7.166 3.266 7.166 7.295v5.304c0 4.029-3.21 7.294-7.166 7.294-3.957 0-7.165-3.265-7.165-7.294v-5.304z" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(69)">
+            <mask id="prefix__p" fill="#fff">
+                <use xlink:href="#prefix__o"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M11.125 24.942v-30.84c0-6.038-4.935-10.934-11.023-10.934" mask="url(#prefix__p)"/>
+        </g>
+        <g transform="translate(1 1) translate(176)">
+            <mask id="prefix__r" fill="#fff">
+                <use xlink:href="#prefix__q"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M4.443-2.907c2.435 0 4.41 2.226 4.41 4.973 0 2.746-1.975 4.973-4.41 4.973-2.436 0-4.41-2.227-4.41-4.973 0-2.747 1.974-4.973 4.41-4.973z" mask="url(#prefix__r)"/>
+        </g>
+        <g transform="translate(1 1) translate(166)">
+            <mask id="prefix__t" fill="#fff">
+                <use xlink:href="#prefix__s"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M13.892 14.996c7.61 0 13.78-6.234 13.78-13.924 0-7.691-6.17-13.925-13.78-13.925-7.61 0-13.78 6.234-13.78 13.925" mask="url(#prefix__t)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M134.142 93.265a6.615 6.615 0 00-6.614 6.616 6.616 6.616 0 006.614 6.619 6.616 6.616 0 006.614-6.619V79.645M58.077 8.034c0 7.69-6.169 13.924-13.78 13.924-7.61 0-13.78-6.235-13.78-13.924" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(55)">
+            <mask id="prefix__v" fill="#fff">
+                <use xlink:href="#prefix__u"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M12.999 14.996V-1.892c0-3.308-2.714-5.988-6.063-5.988C3.586-7.88.873-5.2.873-1.892V.722" mask="url(#prefix__v)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M34.376 28.92c2.13 0 3.858 1.781 3.858 3.979 0 2.197-1.727 3.978-3.858 3.978-2.131 0-3.858-1.78-3.858-3.978 0-2.198 1.727-3.979 3.858-3.979z" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(37)">
+            <mask id="prefix__x" fill="#fff">
+                <use xlink:href="#prefix__w"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M.132 6.063v-16.946c0-3.285 2.715-5.949 6.063-5.949 3.349 0 6.063 2.664 6.063 5.95V6.062c0 3.286-2.714 5.95-6.063 5.95-3.348 0-6.063-2.664-6.063-5.95z" mask="url(#prefix__x)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M171.624 14.996h-13.357c-8.453 0-15.305 7.124-15.305 15.913" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(0 9.916)">
+            <mask id="prefix__z" fill="#fff">
+                <use xlink:href="#prefix__y"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M-1.452 11.488c3.044 0 5.512-2.547 5.512-5.69C4.06 2.655 1.592.107-1.452.107c-3.044 0-5.512 2.548-5.512 5.69v37.078" mask="url(#prefix__z)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M184.302 44.834c-3.35 0-6.064 2.672-6.064 5.968s2.714 5.967 6.064 5.967c3.349 0 6.063-2.671 6.063-5.967v-5.968M221.231 74.246c0 8.475 6.911 15.345 15.434 15.345s15.433-6.87 15.433-15.345V57.764" transform="translate(1 1)"/>
+        <path stroke="#CCA500" stroke-width="3.018" d="M212.223 80.64h-.764c-4.343 0-7.866-3.563-7.866-7.957s3.523-7.957 7.866-7.957h23.953c4.344 0 7.867 3.563 7.867 7.957s-3.523 7.957-7.867 7.957h-.235M198.08 44.834h9.95c6.683 0 12.1 5.343 12.1 11.935M97.763 93.57c3.044 0 5.512 2.671 5.512 5.967s-2.468 5.967-5.512 5.967c-3.044 0-5.512-2.671-5.512-5.967s2.468-5.967 5.512-5.967z" transform="translate(1 1)"/>
+        <path stroke="#CCA500" stroke-width="3.018" d="M83.94 95.422c-2.08 8.1 2.421 16.396 10.055 18.53 7.634 2.134 15.51-2.703 17.591-10.803 2.082-8.101-2.42-16.397-10.055-18.53M93.354 86.607H65.572c-5.354-.003-9.697-4.68-9.7-10.448-.002-5.767 4.336-10.441 9.69-10.438 5.355.002 9.697 4.68 9.699 10.448h-9.045M93.354 52.791L93.354 79.645" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(40 116.282)">
+            <mask id="prefix__B" fill="#fff">
+                <use xlink:href="#prefix__A"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M13.117 13.093h5.72c3.843 0 6.957-2.893 6.957-6.464 0-3.571-3.114-6.465-6.957-6.465H7.396C3.554.164.439 3.058.439 6.629" mask="url(#prefix__B)"/>
+        </g>
+        <g transform="translate(1 1) translate(30 106.366)">
+            <mask id="prefix__D" fill="#fff">
+                <use xlink:href="#prefix__C"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M.517 13.063c0-7.14 5.54-12.93 12.373-12.93h21.801" mask="url(#prefix__D)"/>
+        </g>
+        <g transform="translate(1 1) translate(22 106.366)">
+            <mask id="prefix__F" fill="#fff">
+                <use xlink:href="#prefix__E"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M0.8 0.133L0.8 13.063" mask="url(#prefix__F)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M85.637 67.71L85.637 79.645M103.18 36.877c0 3.295-2.694 5.968-6.016 5.968-3.323 0-6.015-2.673-6.015-5.968 0-3.296 2.692-5.967 6.015-5.967h19.34M124.22 50.304v-8.853c0-2.526 1.976-4.574 4.41-4.574 2.436 0 4.41 2.048 4.41 4.574v17.705c0 2.528-1.974 4.576-4.41 4.576-2.434 0-4.41-2.048-4.41-4.576v-2.138" transform="translate(1 1)"/>
+        <path stroke="#CCA500" stroke-width="3.018" d="M116.504 36.877v23.232c0 6.944 5.43 12.574 12.126 12.574 6.697 0 12.126-5.63 12.126-12.574V54.62M117.607 15.99H111.4c-4.488 0-8.125 3.563-8.125 7.957M124.221 10.022L124.221 30.909M160.6 43.632v2.018c0 2.845-2.23 5.152-4.98 5.152-2.75 0-4.98-2.307-4.98-5.152v-1.672c0-2.823-2.212-5.112-4.941-5.112-2.73 0-4.942 2.29-4.942 5.112v2.057" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(0 81.127)">
+            <mask id="prefix__H" fill="#fff">
+                <use xlink:href="#prefix__G"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M.753 3.904c-3.044 0-5.512 2.58-5.512 5.761 0 3.182 2.468 5.761 5.512 5.761 3.044 0 5.512-2.58 5.512-5.76V.506" mask="url(#prefix__H)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M7.367 73.677V64.57c0-5.245 3.764-9.638 8.819-10.785M.753 59.753L.753 37.872M15.084 70.063c0-4.046 3.208-7.326 7.166-7.326 3.957 0 7.165 3.28 7.165 7.326v17.175c0 4.046-3.208 7.326-7.165 7.326-3.958 0-7.166-3.28-7.166-7.326V70.063zM150.679 103.618a6.067 6.067 0 016.063-6.07 6.067 6.067 0 016.063 6.07v6.86M175.482 88.597c3.35 0 6.063 2.671 6.063 5.967s-2.714 5.968-6.063 5.968c-3.349 0-6.063-2.672-6.063-5.968s2.714-5.967 6.063-5.967z" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(151 116.282)">
+            <mask id="prefix__J" fill="#fff">
+                <use xlink:href="#prefix__I"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M11.951 6.131c0 3.296-2.5 5.968-5.585 5.968C3.282 12.099.78 9.427.78 6.13.78 2.836 3.282.164 6.366.164h20.872" mask="url(#prefix__J)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M155.088 79.645h20.231c7.701 0 13.943 6.458 13.943 14.422s-6.242 14.422-13.943 14.422h-6.085" transform="translate(1 1)"/>
+        <g transform="translate(1 1) translate(185 116.282)">
+            <mask id="prefix__L" fill="#fff">
+                <use xlink:href="#prefix__K"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M.955.164h6.238c6.296 0 11.4 5.51 11.4 12.307v12.557" mask="url(#prefix__L)"/>
+        </g>
+        <g transform="translate(1 1) translate(141 116.282)">
+            <mask id="prefix__N" fill="#fff">
+                <use xlink:href="#prefix__M"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M0.854 0.164L0.864 5.137" mask="url(#prefix__N)"/>
+        </g>
+        <g transform="translate(1 1) translate(132 116.282)">
+            <mask id="prefix__P" fill="#fff">
+                <use xlink:href="#prefix__O"/>
+            </mask>
+            <path stroke="#CCA500" stroke-width="3.018" d="M1.035 0.164L1.045 5.137" mask="url(#prefix__P)"/>
+        </g>
+        <path stroke="#CCA500" stroke-width="3.018" d="M71.301 104.51L71.311 109.483M5.157 107.494L5.168 112.467M25.001 44.834L25.011 49.807M17.284 33.893L17.294 38.866M79.018 39.861L79.028 44.834M172.721 64.726l.01 4.973M183.745 64.726l.01 4.973M194.77 64.726c.002 1.658.006 3.315.01 4.973" transform="translate(1 1)"/>
+        <g>
+            <g transform="translate(1 1) translate(524) translate(223.191 100.958)">
+                <mask id="prefix__R" fill="#fff">
+                    <use xlink:href="#prefix__Q"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M33.199 26.428V15.954c0-3.352-1.148-6.454-3.097-8.98M.247 15.953C.247 7.456 7.622.569 16.724.569c3.158 0 6.111.83 8.618 2.27" mask="url(#prefix__R)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(251.09)">
+                <mask id="prefix__T" fill="#fff">
+                    <use xlink:href="#prefix__S"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M12.44 10.022h5.204c3.495 0 6.33-2.894 6.33-6.464 0-3.57-2.835-6.465-6.33-6.465H7.236C3.74-2.907.906-.013.906 3.558" mask="url(#prefix__T)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(156.433)">
+                <mask id="prefix__V" fill="#fff">
+                    <use xlink:href="#prefix__U"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M25.265-32.746H15.032c-3.275 0-6.305 1.179-8.773 3.179m8.773 30.639C6.73 1.072.002-6.5.002-15.837c0-3.242.81-6.272 2.218-8.845" mask="url(#prefix__V)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(213.227)">
+                <mask id="prefix__X" fill="#fff">
+                    <use xlink:href="#prefix__W"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M7.317 2.066c3.418 0 6.189-2.672 6.189-5.968 0-3.295-2.771-5.968-6.189-5.968H.324" mask="url(#prefix__X)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M14.74 29.915c7.886 0 14.279-6.457 14.279-14.422 0-7.965-6.393-14.422-14.28-14.422C6.853 1.071.46 7.528.46 15.493" transform="translate(1 1) translate(524)"/>
+            <g transform="translate(1 1) translate(524) translate(104.62)">
+                <mask id="prefix__Z" fill="#fff">
+                    <use xlink:href="#prefix__Y"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.189-29.761V-6.53C.189.415 5.598 6.044 12.27 6.044c6.673 0 12.083-5.629 12.083-12.573v-5.489" mask="url(#prefix__Z)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(191.307)">
+                <mask id="prefix__ab" fill="#fff">
+                    <use xlink:href="#prefix__aa"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.277-23.794H26.94c10.147 0 18.373 8.683 18.373 19.395 0 10.711-8.226 19.394-18.373 19.394h-8.021" mask="url(#prefix__ab)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M264.08 15.99v12.292c0 5.296-4.42 9.59-9.871 9.59h-7.704M78.447 22.953v8.613c0 6.23 4.918 11.279 10.984 11.279M63.07 83.623V70.417c0-7.604 5.625-13.975 13.18-15.637M210.257 34.888h15.59c8.977 0 16.498 7.217 18.461 16.908" transform="translate(1 1) translate(524)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M242.11 17.317c0-4.029 3.198-7.295 7.14-7.295 3.944 0 7.14 3.266 7.14 7.295v5.304c0 4.029-3.196 7.294-7.14 7.294-3.942 0-7.14-3.265-7.14-7.294v-5.304z" transform="translate(1 1) translate(524)"/>
+            <g transform="translate(1 1) translate(524) translate(84.693)">
+                <mask id="prefix__ad" fill="#fff">
+                    <use xlink:href="#prefix__ac"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M11.329 24.942v-30.84c0-6.038-4.918-10.934-10.984-10.934" mask="url(#prefix__ad)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(191.307)">
+                <mask id="prefix__af" fill="#fff">
+                    <use xlink:href="#prefix__ae"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M4.67-2.907c2.428 0 4.394 2.226 4.394 4.973 0 2.746-1.966 4.973-4.394 4.973C2.244 7.04.277 4.812.277 2.066c0-2.747 1.967-4.973 4.393-4.973z" mask="url(#prefix__af)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(181.343)">
+                <mask id="prefix__ah" fill="#fff">
+                    <use xlink:href="#prefix__ag"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M14.085 14.996c7.583 0 13.73-6.234 13.73-13.924 0-7.691-6.147-13.925-13.73-13.925C6.503-12.853.355-6.62.355 1.072" mask="url(#prefix__ah)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M149.845 93.265c-3.64 0-6.59 2.962-6.59 6.616 0 3.656 2.95 6.619 6.59 6.619 3.638 0 6.59-2.963 6.59-6.619V79.645M74.054 8.034c0 7.69-6.148 13.924-13.73 13.924-7.584 0-13.73-6.235-13.73-13.924" transform="translate(1 1) translate(524)"/>
+            <g transform="translate(1 1) translate(524) translate(71.74)">
+                <mask id="prefix__aj" fill="#fff">
+                    <use xlink:href="#prefix__ai"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M12.2 14.996V-1.892C12.2-5.2 9.494-7.88 6.159-7.88 2.822-7.88.116-5.2.116-1.892V.722" mask="url(#prefix__aj)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M50.438 28.92c2.123 0 3.844 1.781 3.844 3.979 0 2.197-1.72 3.978-3.844 3.978-2.124 0-3.844-1.78-3.844-3.978 0-2.198 1.72-3.979 3.844-3.979z" transform="translate(1 1) translate(524)"/>
+            <g transform="translate(1 1) translate(524) translate(52.809)">
+                <mask id="prefix__al" fill="#fff">
+                    <use xlink:href="#prefix__ak"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.375 6.063v-16.946c0-3.285 2.705-5.949 6.04-5.949 3.337 0 6.043 2.664 6.043 5.95V6.062c0 3.286-2.706 5.95-6.043 5.95-3.335 0-6.04-2.664-6.04-5.95z" mask="url(#prefix__al)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M187.19 14.996h-13.308c-8.423 0-15.25 7.124-15.25 15.913M14.74 21.404c3.032 0 5.491-2.548 5.491-5.69 0-3.143-2.459-5.692-5.492-5.692s-5.492 2.549-5.492 5.691v37.078M199.822 44.834c-3.336 0-6.04 2.672-6.04 5.968s2.704 5.967 6.04 5.967c3.337 0 6.04-2.671 6.04-5.967v-5.968M236.619 74.246c0 8.475 6.885 15.345 15.378 15.345 8.492 0 15.378-6.87 15.378-15.345V57.764" transform="translate(1 1) translate(524)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M227.643 80.64h-.76c-4.329 0-7.84-3.563-7.84-7.957s3.511-7.957 7.84-7.957h23.866c4.328 0 7.839 3.563 7.839 7.957s-3.51 7.957-7.839 7.957h-.234M213.552 44.834h9.913c6.66 0 12.056 5.343 12.056 11.935M113.597 93.57c3.033 0 5.492 2.671 5.492 5.967s-2.46 5.967-5.492 5.967c-3.034 0-5.493-2.671-5.493-5.967s2.459-5.967 5.493-5.967z" transform="translate(1 1) translate(524)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M99.824 95.422c-2.075 8.1 2.412 16.396 10.018 18.53 7.607 2.134 15.453-2.703 17.528-10.803 2.073-8.101-2.412-16.397-10.019-18.53M109.203 86.607H81.52c-5.335-.003-9.662-4.68-9.664-10.448-.002-5.767 4.32-10.441 9.654-10.438 5.336.002 9.662 4.68 9.664 10.448h-9.012M109.203 52.791L109.203 79.645" transform="translate(1 1) translate(524)"/>
+            <g transform="translate(1 1) translate(524) translate(55.798 116.282)">
+                <mask id="prefix__an" fill="#fff">
+                    <use xlink:href="#prefix__am"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M13.313 13.093h5.7c3.828 0 6.932-2.893 6.932-6.464 0-3.571-3.104-6.465-6.932-6.465h-11.4C3.784.164.68 3.058.68 6.629" mask="url(#prefix__an)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(45.834 106.366)">
+                <mask id="prefix__ap" fill="#fff">
+                    <use xlink:href="#prefix__ao"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.76 13.063C.76 5.923 6.279.133 13.088.133H34.81" mask="url(#prefix__ap)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(37.863 106.366)">
+                <mask id="prefix__ar" fill="#fff">
+                    <use xlink:href="#prefix__aq"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M1.042 0.133L1.042 13.063" mask="url(#prefix__ar)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M101.514 67.71L101.514 79.645M118.993 36.877c0 3.295-2.683 5.968-5.994 5.968-3.31 0-5.993-2.673-5.993-5.968 0-3.296 2.683-5.967 5.993-5.967h19.27M139.959 50.304v-8.853c0-2.526 1.967-4.574 4.393-4.574 2.427 0 4.394 2.048 4.394 4.574v17.705c0 2.528-1.967 4.576-4.394 4.576-2.426 0-4.393-2.048-4.393-4.576v-2.138" transform="translate(1 1) translate(524)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M132.27 36.877v23.232c0 6.944 5.409 12.574 12.082 12.574 6.673 0 12.083-5.63 12.083-12.574V54.62M133.368 15.99h-6.184c-4.47 0-8.095 3.563-8.095 7.957M139.959 10.022L139.959 30.909M176.206 43.632v2.018c0 2.845-2.22 5.152-4.961 5.152-2.74 0-4.962-2.307-4.962-5.152v-1.672c0-2.823-2.205-5.112-4.923-5.112-2.72 0-4.925 2.29-4.925 5.112v2.057M16.936 85.03c-3.034 0-5.493 2.58-5.493 5.762 0 3.181 2.46 5.761 5.493 5.761 3.033 0 5.493-2.58 5.493-5.76v-9.159M23.527 73.677V64.57c0-5.245 3.75-9.638 8.787-10.785M16.936 59.753L16.936 37.872M31.216 70.063c0-4.046 3.196-7.326 7.139-7.326s7.14 3.28 7.14 7.326v17.175c0 4.046-3.197 7.326-7.14 7.326-3.943 0-7.14-3.28-7.14-7.326V70.063zM166.32 103.618c0-3.351 2.705-6.07 6.041-6.07 3.337 0 6.042 2.719 6.042 6.07v6.86M191.035 88.597c3.337 0 6.04 2.671 6.04 5.967s-2.703 5.968-6.04 5.968-6.041-2.672-6.041-5.968 2.704-5.967 6.041-5.967z" transform="translate(1 1) translate(524)"/>
+            <g transform="translate(1 1) translate(524) translate(167.394 116.282)">
+                <mask id="prefix__at" fill="#fff">
+                    <use xlink:href="#prefix__as"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M11.156 6.131c0 3.296-2.492 5.968-5.565 5.968-3.074 0-5.566-2.672-5.566-5.968C.025 2.836 2.517.164 5.59.164h20.796" mask="url(#prefix__at)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M170.714 79.645h20.158c7.673 0 13.893 6.458 13.893 14.422s-6.22 14.422-13.893 14.422h-6.063" transform="translate(1 1) translate(524)"/>
+            <g transform="translate(1 1) translate(524) translate(201.27 116.282)">
+                <mask id="prefix__av" fill="#fff">
+                    <use xlink:href="#prefix__au"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.2.164h6.214c6.274 0 11.36 5.51 11.36 12.307v12.557" mask="url(#prefix__av)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(156.433 116.282)">
+                <mask id="prefix__ax" fill="#fff">
+                    <use xlink:href="#prefix__aw"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M1.095 0.164L1.105 5.137" mask="url(#prefix__ax)"/>
+            </g>
+            <g transform="translate(1 1) translate(524) translate(147.466 116.282)">
+                <mask id="prefix__az" fill="#fff">
+                    <use xlink:href="#prefix__ay"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M1.275 0.164L1.285 5.137" mask="url(#prefix__az)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M87.23 104.51L87.24 109.483M21.325 107.494L21.335 112.467M41.096 44.834L41.106 49.807M33.407 33.893L33.417 38.866M94.919 39.861L94.929 44.834M188.283 64.726l.01 4.973M199.268 64.726l.01 4.973M210.252 64.726l.01 4.973" transform="translate(1 1) translate(524)"/>
+        </g>
+        <g>
+            <g transform="translate(1 1) translate(246) translate(18.931)">
+                <mask id="prefix__aB" fill="#fff">
+                    <use xlink:href="#prefix__aA"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.476-7.888V2.597c0 3.355 1.147 6.46 3.096 8.989m29.856-8.99c0 8.506-7.376 15.4-16.476 15.4-3.16 0-6.112-.83-8.619-2.272" mask="url(#prefix__aB)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(0 109.173)">
+                <mask id="prefix__aD" fill="#fff">
+                    <use xlink:href="#prefix__aC"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M12.816.413H7.364c-3.66 0-6.63 2.897-6.63 6.47 0 3.575 2.97 6.472 6.63 6.472H18.27c3.661 0 6.63-2.897 6.63-6.471" mask="url(#prefix__aD)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(49.819 117.294)">
+                <mask id="prefix__aF" fill="#fff">
+                    <use xlink:href="#prefix__aE"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M6.016.257C2.883.257.344 2.93.344 6.23c0 3.298 2.54 5.973 5.672 5.973h6.41" mask="url(#prefix__aF)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(246.105 89.324)">
+                <mask id="prefix__aH" fill="#fff">
+                    <use xlink:href="#prefix__aG"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M14.4.352C6.819.352.672 6.815.672 14.787c0 7.973 6.147 14.436 13.73 14.436 7.582 0 13.73-6.463 13.73-14.436" mask="url(#prefix__aH)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(147.464 112.782)">
+                <mask id="prefix__aJ" fill="#fff">
+                    <use xlink:href="#prefix__aI"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M24.621 36.626V13.372c0-6.951-5.41-12.586-12.083-12.586C5.866.786.456 6.421.456 13.372v5.494" mask="url(#prefix__aJ)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(37.862 103.76)">
+                <mask id="prefix__aL" fill="#fff">
+                    <use xlink:href="#prefix__aK"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M45.252 39.675H18.59C8.444 39.675.218 30.984.218 20.262.218 9.541 8.444.85 18.59.85h8.02" mask="url(#prefix__aL)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M11.718 103.613V91.31c0-5.3 4.42-9.598 9.871-9.598h7.704M197.348 96.644v-8.622c0-6.234-4.919-11.289-10.983-11.289M213.824 35.916v13.22c0 7.61-5.626 13.987-13.181 15.65M65.54 84.698H49.95c-8.978 0-16.498-7.224-18.46-16.925" transform="translate(1 1) translate(246)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M32.588 102.286c0 4.032-3.197 7.3-7.14 7.3-3.942 0-7.139-3.268-7.139-7.3v-5.31c0-4.032 3.197-7.3 7.14-7.3 3.942 0 7.14 3.268 7.14 7.3v5.31z" transform="translate(1 1) translate(246)"/>
+            <g transform="translate(1 1) translate(246) translate(179.348 93.835)">
+                <mask id="prefix__aN" fill="#fff">
+                    <use xlink:href="#prefix__aM"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.426.818v30.868c0 6.045 4.918 10.945 10.983 10.945" mask="url(#prefix__aN)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(74.728 111.88)">
+                <mask id="prefix__aP" fill="#fff">
+                    <use xlink:href="#prefix__aO"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M5.09 10.648C2.664 10.648.699 8.42.699 5.671.698 2.92 2.663.693 5.09.693c2.427 0 4.394 2.228 4.394 4.978 0 2.749-1.967 4.977-4.394 4.977z" mask="url(#prefix__aP)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(65.76 103.76)">
+                <mask id="prefix__aR" fill="#fff">
+                    <use xlink:href="#prefix__aQ"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M14.608.849C7.025.849.878 7.089.878 14.786c0 7.698 6.147 13.938 13.73 13.938 7.581 0 13.729-6.24 13.729-13.938" mask="url(#prefix__aR)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M125.403 26.265c3.336 0 6.04-2.965 6.04-6.622 0-3.658-2.704-6.624-6.04-6.624-3.337 0-6.04 2.966-6.04 6.624v20.255M202.84 111.577c0-7.698 6.147-13.937 13.73-13.937s13.73 6.24 13.73 13.937" transform="translate(1 1) translate(246)"/>
+            <g transform="translate(1 1) translate(246) translate(190.308 103.76)">
+                <mask id="prefix__aT" fill="#fff">
+                    <use xlink:href="#prefix__aS"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.45.849v16.904c0 3.31 2.704 5.994 6.04 5.994 3.337 0 6.042-2.684 6.042-5.994v-2.617" mask="url(#prefix__aT)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M225.357 90.67c-2.123 0-3.844-1.782-3.844-3.982 0-2.198 1.72-3.981 3.844-3.981 2.123 0 3.844 1.783 3.844 3.981 0 2.2-1.72 3.983-3.844 3.983z" transform="translate(1 1) translate(246)"/>
+            <g transform="translate(1 1) translate(246) translate(210.236 107.369)">
+                <mask id="prefix__aV" fill="#fff">
+                    <use xlink:href="#prefix__aU"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M12.376 6.181v16.962c0 3.288-2.705 5.954-6.041 5.954-3.337 0-6.041-2.666-6.041-5.954V6.18c0-3.289 2.704-5.955 6.04-5.955 3.337 0 6.042 2.666 6.042 5.955z" mask="url(#prefix__aV)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M89.705 104.609H102.5c8.099 0 14.664-7.132 14.664-15.929M261.055 98.195c-3.034 0-5.492 2.55-5.492 5.696 0 3.145 2.458 5.695 5.492 5.695 3.033 0 5.492-2.55 5.492-5.695V66.778M75.974 74.742c3.337 0 6.041-2.674 6.041-5.973 0-3.298-2.704-5.973-6.04-5.973-3.337 0-6.04 2.675-6.04 5.973v5.973M40.277 45.302c0-8.482-6.886-15.36-15.378-15.36S9.522 36.82 9.522 45.303v16.499" transform="translate(1 1) translate(246)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M48.154 38.903h.761c4.327 0 7.838 3.566 7.838 7.964 0 4.399-3.51 7.964-7.838 7.964H25.049c-4.328 0-7.839-3.565-7.839-7.964 0-4.398 3.51-7.964 7.839-7.964h.234M63.343 74.742H53.43c-6.658 0-12.055-5.348-12.055-11.946M162.199 25.96c-3.033 0-5.492-2.674-5.492-5.972 0-3.299 2.459-5.974 5.492-5.974s5.492 2.675 5.492 5.974c0 3.298-2.459 5.973-5.492 5.973z" transform="translate(1 1) translate(246)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M175.972 24.106c2.074-8.107-2.412-16.41-10.02-18.547-7.605-2.136-15.452 2.706-17.526 10.814s2.412 16.412 10.019 18.548M165.495 32.93h27.68c5.336.002 9.663 4.685 9.665 10.457.002 5.774-4.32 10.452-9.655 10.449-5.335-.003-9.661-4.685-9.663-10.458h9.012M166.592 66.778L166.592 39.898" transform="translate(1 1) translate(246)"/>
+            <g transform="translate(1 1) translate(246) translate(193.297)">
+                <mask id="prefix__aX" fill="#fff">
+                    <use xlink:href="#prefix__aW"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M13.388-9.879h-5.7C3.858-9.879.755-6.982.755-3.408c0 3.574 3.103 6.471 6.931 6.471h11.4c3.829 0 6.932-2.897 6.932-6.47" mask="url(#prefix__aX)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(194.293)">
+                <mask id="prefix__aZ" fill="#fff">
+                    <use xlink:href="#prefix__aY"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M34.908.077c0 7.146-5.52 12.942-12.328 12.942H.858" mask="url(#prefix__aZ)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(236.141)">
+                <mask id="prefix__bb" fill="#fff">
+                    <use xlink:href="#prefix__ba"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M0.749 13.019L0.749 0.077" mask="url(#prefix__bb)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M174.281 51.845L174.281 39.899M157.38 82.707c0-3.3 2.8-5.973 6.254-5.973 3.454 0 6.254 2.674 6.254 5.973 0 3.3-2.8 5.973-6.254 5.973h-20.107M135.838 69.267v8.86c0 2.53-1.968 4.58-4.394 4.58s-4.393-2.05-4.393-4.58V60.406c0-2.53 1.967-4.58 4.393-4.58 2.426 0 4.394 2.05 4.394 4.58v2.14" transform="translate(1 1) translate(246)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M143.527 82.707V59.453c0-6.951-5.41-12.586-12.083-12.586s-12.082 5.635-12.082 12.586v5.493M141.33 103.613h6.66c4.814 0 8.718-3.566 8.718-7.964M135.838 109.586L135.838 88.68M98.492 75.945v-2.02c0-2.847 2.346-5.156 5.237-5.156 2.892 0 5.238 2.31 5.238 5.157v1.672c0 2.826 2.328 5.118 5.197 5.118 2.87 0 5.197-2.292 5.197-5.118V73.54M258.858 34.508c3.033 0 5.492-2.582 5.492-5.767 0-3.184-2.459-5.767-5.492-5.767s-5.492 2.583-5.492 5.767v9.167M252.268 45.872v9.116c0 5.25-3.751 9.647-8.787 10.795M258.858 59.809L258.858 81.711M244.58 49.49c0 4.05-3.197 7.332-7.14 7.332-3.944 0-7.14-3.282-7.14-7.333V32.3c0-4.05 3.196-7.334 7.14-7.334 3.943 0 7.14 3.283 7.14 7.334v17.19zM109.476 15.902c0 3.356-2.704 6.076-6.04 6.076-3.338 0-6.042-2.72-6.042-6.076V9.037M84.762 30.939c-3.337 0-6.041-2.675-6.041-5.974 0-3.299 2.704-5.973 6.04-5.973 3.338 0 6.042 2.674 6.042 5.973 0 3.3-2.704 5.974-6.041 5.974z" transform="translate(1 1) translate(246)"/>
+            <g transform="translate(1 1) translate(246) translate(81.703)">
+                <mask id="prefix__bd" fill="#fff">
+                    <use xlink:href="#prefix__bc"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M15.544-2.91c0-3.298 2.492-5.974 5.566-5.974 3.072 0 5.564 2.676 5.564 5.974 0 3.299-2.492 5.973-5.564 5.973H.313" mask="url(#prefix__bd)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M103.984 39.899H83.826c-7.673 0-13.892-6.464-13.892-14.437 0-7.971 6.22-14.435 13.892-14.435h6.063" transform="translate(1 1) translate(246)"/>
+            <g transform="translate(1 1) translate(246) translate(54.8)">
+                <mask id="prefix__bf" fill="#fff">
+                    <use xlink:href="#prefix__be"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M19.526 3.063h-6.604C6.257 3.063.853-2.45.853-9.255v-12.57" mask="url(#prefix__bf)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(117.572)">
+                <mask id="prefix__bh" fill="#fff">
+                    <use xlink:href="#prefix__bg"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M0.695 3.063L0.686 -1.915" mask="url(#prefix__bh)"/>
+            </g>
+            <g transform="translate(1 1) translate(246) translate(126.54)">
+                <mask id="prefix__bj" fill="#fff">
+                    <use xlink:href="#prefix__bi"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M0.515 3.063L0.505 -1.915" mask="url(#prefix__bj)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M189.664 15.01L189.654 10.032M254.47 12.023L254.46 7.045M234.698 74.742L234.688 69.764M242.387 85.693L242.377 80.716M179.779 79.72L179.769 74.742M87.513 54.832l-.01-4.978M76.53 54.832c-.005-1.66-.008-3.319-.01-4.978M65.545 54.832l-.01-4.978" transform="translate(1 1) translate(246)"/>
+        </g>
+        <g>
+            <g transform="translate(1 1) translate(786) translate(18.928)">
+                <mask id="prefix__bl" fill="#fff">
+                    <use xlink:href="#prefix__bk"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.72-7.888V2.597c0 3.355 1.147 6.46 3.096 8.989m29.85-8.99c0 8.506-7.374 15.4-16.473 15.4-3.159 0-6.112-.83-8.617-2.272" mask="url(#prefix__bl)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(0 109.173)">
+                <mask id="prefix__bn" fill="#fff">
+                    <use xlink:href="#prefix__bm"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M13.059.413H7.607C3.947.413.978 3.31.978 6.883c0 3.575 2.968 6.472 6.63 6.472H18.51c3.66 0 6.629-2.897 6.629-6.471" mask="url(#prefix__bn)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(49.811 117.294)">
+                <mask id="prefix__bp" fill="#fff">
+                    <use xlink:href="#prefix__bo"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M6.26.257C3.125.257.587 2.93.587 6.23c0 3.298 2.538 5.973 5.671 5.973h6.409" mask="url(#prefix__bp)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(246.068 89.324)">
+                <mask id="prefix__br" fill="#fff">
+                    <use xlink:href="#prefix__bq"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M14.643.352C7.06.352.916 6.815.916 14.787c0 7.973 6.145 14.436 13.727 14.436 7.58 0 13.728-6.463 13.728-14.436" mask="url(#prefix__br)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(147.442 112.782)">
+                <mask id="prefix__bt" fill="#fff">
+                    <use xlink:href="#prefix__bs"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M24.86 36.626V13.372C24.86 6.42 19.453.786 12.78.786 6.11.786.7 6.421.7 13.372v5.494" mask="url(#prefix__bt)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(37.857 103.76)">
+                <mask id="prefix__bv" fill="#fff">
+                    <use xlink:href="#prefix__bu"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M45.489 39.675H18.83C8.686 39.675.46 30.984.46 20.262.461 9.541 8.686.85 18.831.85h8.02" mask="url(#prefix__bv)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M11.96 103.613V91.31c0-5.3 4.419-9.598 9.869-9.598h7.704M197.562 96.644v-8.622c0-6.234-4.917-11.289-10.981-11.289M214.035 35.916v13.22c0 7.61-5.625 13.987-13.18 15.65M65.774 84.698H50.186c-8.976 0-16.495-7.224-18.458-16.925" transform="translate(1 1) translate(786)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M32.827 102.286c0 4.032-3.196 7.3-7.138 7.3-3.942 0-7.14-3.268-7.14-7.3v-5.31c0-4.032 3.198-7.3 7.14-7.3 3.942 0 7.138 3.268 7.138 7.3v5.31z" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(179.32 93.835)">
+                <mask id="prefix__bx" fill="#fff">
+                    <use xlink:href="#prefix__bw"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.67.818v30.868c0 6.045 4.916 10.945 10.981 10.945" mask="url(#prefix__bx)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(74.717 111.88)">
+                <mask id="prefix__bz" fill="#fff">
+                    <use xlink:href="#prefix__by"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M5.334 10.648C2.907 10.648.941 8.42.941 5.671.94 2.92 2.907.693 5.334.693c2.427 0 4.392 2.228 4.392 4.978 0 2.749-1.965 4.977-4.392 4.977z" mask="url(#prefix__bz)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(66.747 103.76)">
+                <mask id="prefix__bB" fill="#fff">
+                    <use xlink:href="#prefix__bA"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M13.853.849C6.273.849.126 7.089.126 14.786c0 7.698 6.146 13.938 13.727 13.938 7.58 0 13.728-6.24 13.728-13.938" mask="url(#prefix__bB)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M125.627 26.265c3.337 0 6.04-2.965 6.04-6.622 0-3.658-2.703-6.624-6.04-6.624-3.336 0-6.039 2.966-6.039 6.624v20.255M203.053 111.577c0-7.698 6.147-13.937 13.728-13.937 7.582 0 13.728 6.24 13.728 13.937" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(190.28 103.76)">
+                <mask id="prefix__bD" fill="#fff">
+                    <use xlink:href="#prefix__bC"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M.693.849v16.904c0 3.31 2.705 5.994 6.04 5.994 3.337 0 6.042-2.684 6.042-5.994v-2.617" mask="url(#prefix__bD)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M225.566 90.67c-2.123 0-3.843-1.782-3.843-3.982 0-2.198 1.72-3.981 3.843-3.981s3.844 1.783 3.844 3.981c0 2.2-1.72 3.983-3.844 3.983z" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(210.204 107.369)">
+                <mask id="prefix__bF" fill="#fff">
+                    <use xlink:href="#prefix__bE"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M12.618 6.181v16.962c0 3.288-2.705 5.954-6.04 5.954-3.336 0-6.04-2.666-6.04-5.954V6.18c0-3.289 2.704-5.955 6.04-5.955 3.335 0 6.04 2.666 6.04 5.955z" mask="url(#prefix__bF)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M89.935 104.609h12.795c8.096 0 14.661-7.132 14.661-15.929" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(255.034 66.767)">
+                <mask id="prefix__bH" fill="#fff">
+                    <use xlink:href="#prefix__bG"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M6.225 31.428c-3.032 0-5.491 2.55-5.491 5.696 0 3.145 2.459 5.695 5.491 5.695 3.034 0 5.492-2.55 5.492-5.695V.01" mask="url(#prefix__bH)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M76.207 74.742c3.336 0 6.04-2.674 6.04-5.973 0-3.298-2.704-5.973-6.04-5.973s-6.04 2.675-6.04 5.973v5.973M40.514 45.302c0-8.482-6.884-15.36-15.376-15.36-8.49 0-15.374 6.878-15.374 15.36v16.499" transform="translate(1 1) translate(786)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M48.39 38.903h.76c4.328 0 7.838 3.566 7.838 7.964 0 4.399-3.51 7.964-7.837 7.964H25.289c-4.328 0-7.838-3.565-7.838-7.964 0-4.398 3.51-7.964 7.838-7.964h.233M63.577 74.742h-9.911c-6.658 0-12.054-5.348-12.054-11.946M162.419 25.96c-3.034 0-5.493-2.674-5.493-5.972 0-3.299 2.46-5.974 5.493-5.974 3.032 0 5.49 2.675 5.49 5.974 0 3.298-2.458 5.973-5.49 5.973z" transform="translate(1 1) translate(786)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M176.19 24.106c2.073-8.107-2.413-16.41-10.018-18.547-7.604-2.136-15.45 2.706-17.524 10.814-2.074 8.108 2.411 16.412 10.016 18.548M165.714 32.93h27.677c5.334.002 9.66 4.685 9.662 10.457.002 5.774-4.318 10.452-9.653 10.449-5.334-.003-9.66-4.685-9.661-10.458h9.01M166.811 66.778L166.811 39.898" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(194.264)">
+                <mask id="prefix__bJ" fill="#fff">
+                    <use xlink:href="#prefix__bI"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M12.633-9.879h-5.7c-3.827 0-6.93 2.897-6.93 6.471 0 3.574 3.103 6.471 6.93 6.471h11.399c3.827 0 6.93-2.897 6.93-6.47" mask="url(#prefix__bJ)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(195.26)">
+                <mask id="prefix__bL" fill="#fff">
+                    <use xlink:href="#prefix__bK"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M34.15.077c0 7.146-5.518 12.942-12.327 12.942H.105" mask="url(#prefix__bL)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(236.106)">
+                <mask id="prefix__bN" fill="#fff">
+                    <use xlink:href="#prefix__bM"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M0.993 13.019L0.993 0.077" mask="url(#prefix__bN)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M174.499 51.845L174.499 39.899M157.6 82.707c0-3.3 2.8-5.973 6.252-5.973 3.455 0 6.255 2.674 6.255 5.973 0 3.3-2.8 5.973-6.255 5.973h-20.104M136.06 69.267v8.86c0 2.53-1.967 4.58-4.392 4.58-2.427 0-4.393-2.05-4.393-4.58V60.406c0-2.53 1.966-4.58 4.393-4.58 2.425 0 4.393 2.05 4.393 4.58v2.14" transform="translate(1 1) translate(786)"/>
+            <path stroke="#CCA500" stroke-width="3.018" d="M143.748 82.707V59.453c0-6.951-5.408-12.586-12.08-12.586s-12.081 5.635-12.081 12.586v5.493M141.552 103.613h6.658c4.815 0 8.717-3.566 8.717-7.964M136.061 109.586L136.061 88.68M98.72 75.945v-2.02c0-2.847 2.346-5.156 5.237-5.156 2.892 0 5.237 2.31 5.237 5.157v1.672c0 2.826 2.327 5.118 5.196 5.118 2.87 0 5.197-2.292 5.197-5.118V73.54" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(253.042 22.556)">
+                <mask id="prefix__bP" fill="#fff">
+                    <use xlink:href="#prefix__bO"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M6.022 11.952c3.032 0 5.491-2.583 5.491-5.768C11.513 3 9.054.418 6.022.418 2.989.418.53 3 .53 6.184v9.167" mask="url(#prefix__bP)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M252.474 45.872v9.116c0 5.25-3.75 9.647-8.786 10.795M259.063 59.809L259.063 81.711M244.785 49.49c0 4.05-3.196 7.332-7.138 7.332-3.943 0-7.139-3.282-7.139-7.333V32.3c0-4.05 3.196-7.334 7.14-7.334 3.941 0 7.137 3.283 7.137 7.334v17.19zM109.703 15.902c0 3.356-2.704 6.076-6.04 6.076s-6.04-2.72-6.04-6.076V9.037M84.993 30.939c-3.336 0-6.04-2.675-6.04-5.974 0-3.299 2.704-5.973 6.04-5.973 3.337 0 6.04 2.674 6.04 5.973 0 3.3-2.703 5.974-6.04 5.974z" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(81.69)">
+                <mask id="prefix__bR" fill="#fff">
+                    <use xlink:href="#prefix__bQ"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M15.786-2.91c0-3.298 2.491-5.974 5.565-5.974 3.072 0 5.564 2.676 5.564 5.974 0 3.299-2.492 5.973-5.564 5.973H.557" mask="url(#prefix__bR)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M104.212 39.899H84.057c-7.672 0-13.89-6.464-13.89-14.437 0-7.971 6.218-14.435 13.89-14.435h6.063" transform="translate(1 1) translate(786)"/>
+            <g transform="translate(1 1) translate(786) translate(55.789)">
+                <mask id="prefix__bT" fill="#fff">
+                    <use xlink:href="#prefix__bS"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M18.771 3.063h-6.603C5.504 3.063.101-2.45.101-9.255v-12.57" mask="url(#prefix__bT)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(117.555)">
+                <mask id="prefix__bV" fill="#fff">
+                    <use xlink:href="#prefix__bU"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M0.94 3.063L0.93 -1.915" mask="url(#prefix__bV)"/>
+            </g>
+            <g transform="translate(1 1) translate(786) translate(126.52)">
+                <mask id="prefix__bX" fill="#fff">
+                    <use xlink:href="#prefix__bW"/>
+                </mask>
+                <path stroke="#CCA500" stroke-width="3.018" d="M0.759 3.063L0.749 -1.915" mask="url(#prefix__bX)"/>
+            </g>
+            <path stroke="#CCA500" stroke-width="3.018" d="M189.879 15.01L189.869 10.032M254.676 12.023L254.666 7.045M234.907 74.742L234.896 69.764M242.594 85.693L242.585 80.716M179.995 79.72L179.985 74.742M87.744 54.832l-.01-4.978M76.76 54.832c-.002-1.66-.005-3.319-.01-4.978M65.779 54.832l-.01-4.978" transform="translate(1 1) translate(786)"/>
+        </g>
+    </g>
+</svg>

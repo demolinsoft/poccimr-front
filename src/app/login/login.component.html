@@ -1,0 +1,85 @@
+<div class="home">
+    <div class="container-logo">
+        <div class="logo-dgid">
+            <img src="../../assets/images/logo.png" alt="">
+        </div>
+    </div>
+    <div class="">
+        <div class="row">
+            <div class="col-sm sign-in-container">
+                <form role="form" (ngSubmit)="login()" [formGroup]="loginForm">
+                    <img alt="" src="../../assets/img/connecter-2.svg">
+                    <h1 class="title-connexcontainerion">Connexion</h1>
+                    <span class="subtitle">Entrez votre login et accédez à la plateforme</span>
+                    <span class="subtitleError" *ngIf="authenticationError">Identification ou mot de passe incorrect</span>
+                    <div class="container-input">
+                        <div class="input" id="input1" [ngClass]="addCSS()">
+                            <img alt="" src="../../assets/img/user.svg">
+                            <div class="mat-form">
+                                <mat-form-field appearance="legacy">
+                                    <mat-label>Identification</mat-label>
+                                    <input matInput name="username" id="username" placeholder="Identification" formControlName="username" #username>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="input" id="input2" [ngClass]="addCSSpass()">
+                            <img alt="" src="../../assets/img/locked.svg">
+                            <div class="mat-form passwordHome">
+                                <mat-form-field appearance="legacy">
+                                    <mat-label>Mot de passe</mat-label>
+                                    <input matInput [type]="passwordType" name="password" id="password" placeholder="Mot de passe" formControlName="password">
+                                </mat-form-field>
+                                <div class="newPasse" (click)="showPassword()">
+                                    <img  width="25" height="25" src="{{visibilityIcon}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button type="submit" [disabled]="status" class="button"  >Connexion</button> -->
+                    <button type="submit" [disabled]="status" class="button"  [ngClass]="addButton()">Connexion</button>
+                    <!-- <a class="forget-password alert-link" (click)="requestResetPassword()">Mot de passe oublié</a> -->
+                </form>
+            </div>
+            <!-- <div class="col-sm slide-container">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <div class="img-slide">
+                            <img src="../../content/images/assets/img/onboarding-1.svg">
+                        </div>
+                        <div class="text">
+                            <p>Déclaration</p>
+                            <span>Déclarer mes  impôts et taxes devient simple avec M-TAX</span>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <div class="img-slide">
+                            <img src="../../content/images/assets/img/onboarding-2.svg">
+                        </div>
+                        <div class="text">
+                            <p>Paiement</p>
+                            <span>Je peux voir les statistiques de paiement des impots</span>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext"></div>
+                        <div class="img-slide">
+                            <img src="../../content/images/assets/img/onboarding-3.svg">
+                        </div>
+                        <div class="text">
+                            <p>Consultation</p>
+                            <span>Je peux conculter</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>

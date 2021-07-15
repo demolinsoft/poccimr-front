@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/gestion-des-formulaire" stroke="#000000">
+            <g id="Orion_document-stack" transform="translate(6.000000, 7.200000)">
+                <path d="M13.2,9.75 L13.2,10.65 C13.2,11.1470563 12.7970563,11.55 12.3,11.55 L5.7,11.55 C5.20294373,11.55 4.8,11.1470563 4.8,10.65 L4.8,9.75 L0,9.75 L0,15.75 L18,15.75 L18,9.75 L13.2,9.75 Z" id="Path"></path>
+                <path d="M1.2,7.35 L16.8,7.35 M1.2,4.95 L16.8,4.95 M1.2,2.55 L16.8,2.55 M1.2,0.15 L16.8,0.15" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

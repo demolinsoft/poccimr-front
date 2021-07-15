@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cimrweb-deployment
+  labels:
+    app: cimrweb
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cimrweb
+  template:
+    metadata:
+      labels:
+        app: cimrweb
+    spec:
+      containers:
+        - name: cimrweb
+          image: diamef/cimrpocweb:v2
+          ports:
+            - containerPort: 80

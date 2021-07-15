@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Icon/gestion-des-NINEA" stroke="#000000">
+            <g id="Group-18" transform="translate(6.000000, 6.000000)">
+                <g id="Group-7">
+                    <polyline id="Stroke-1" points="18.00024 13.2 18.00024 0 14.40024 0"></polyline>
+                    <polyline id="Stroke-3" points="0.00024 13.2 0.00024 0 1.20024 0"></polyline>
+                    <polygon id="Stroke-5" points="11.40024 13.2 11.40024 15 6.60024 15 6.60024 13.2 0.00024 13.2 0.00024 18 18.00024 18 18.00024 13.2"></polygon>
+                </g>
+                <line x1="13.80024" y1="15.6" x2="15.00024" y2="15.6" id="Stroke-8" stroke-width="2"></line>
+                <line x1="3.00024" y1="15.6" x2="4.20024" y2="15.6" id="Stroke-9" stroke-width="2"></line>
+                <g id="Group-14" transform="translate(3.000000, 0.000000)">
+                    <polygon id="Stroke-10" points="8.40024 3.6 12.00024 3.6 8.40024 0"></polygon>
+                    <polygon id="Stroke-12" points="8.40024 0 0.00024 0 0.00024 13.2 12.00024 13.2 12.00024 3.6"></polygon>
+                </g>
+                <line x1="4.80024" y1="6" x2="13.20024" y2="6" id="Stroke-15"></line>
+                <line x1="4.80024" y1="8.4" x2="13.20024" y2="8.4" id="Stroke-16"></line>
+                <line x1="4.80024" y1="10.8" x2="13.20024" y2="10.8" id="Stroke-17"></line>
+            </g>
+        </g>
+    </g>
+</svg>

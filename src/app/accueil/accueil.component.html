@@ -1,0 +1,73 @@
+<div class="home">
+    <div class="logo">
+        <img src="../../assets/images/logo.png" alt="">
+    </div>
+    <div class="container-fluid">
+        <div class="row entete">
+            <div class="imag col-md-2 col-sm-6"><img src="../../assets/images/imag1.png" alt=""></div>
+            <div class="imag col-md-2 col-sm-6"><img src="../../assets/images/imag2.png" alt=""></div>
+            <div class="imag1 col-md-3 col-sm-6"><img src="../../assets/images/imag3.png" alt=""></div>
+            <div class="cercle col-md-3 col-sm-6">
+                <h2 class="texte">Retraite bien préparée, avenir assuré !
+                </h2>
+            </div>
+        </div>
+        <div class="container-body" *ngIf="afficher">
+            <h2 class="body-texte">Votre adhésion et souscription à un contrat de retraite CIMR en
+                ligne en seulement 4 étapes </h2>
+            <div class="row">
+                <div class="col-md-2 carre carre1"><img src="../../assets/images/car1.png" alt=""></div>
+                <div class="col-md-3 carre"><img src="../../assets/images/car2.png" alt=""></div>
+                <div class="col-md-3 carre"><img src="../../assets/images/car3.png" alt=""></div>
+                <div class="col-md-3 carre"><img src="../../assets/images/car4.png" alt=""></div>
+            </div>
+            <div class="line"></div>
+            <h2 class="titre-bas">
+                Vous pouvez effectuer votre demande d’adhésion et de souscription
+                à un contrat de retraite CIMR en ligne, en cliquant sur suivant
+            </h2>
+            <div class="bouton">
+                <button class="poursui" (click)="poursuivre()">Poursuivre</button>
+            </div>
+        </div>
+        <div class="container-carre" *ngIf="!afficher">
+            <div class="row">
+                <div class="col-md-2 carre2">
+                   <h2 class="ligne1"><p class="chiffre">1</p>Saisie de l’adhésion</h2>
+                </div>
+                <div class="col-md-3 carre2">
+                    <h2 class="ligne1"><p class="chiffre">2</p>Saisie du contrat de retraite</h2>
+                </div>
+                <div class="col-md-3 carre2">
+                    <h2><p class="p2 chiffre">3</p>Signature de la convention de signature électronique et envoi du dossier à la CIMR</h2>
+                </div>
+                <div class="col-md-3 carre2">
+                    <h2><p class="p2 chiffre">4</p>Signature électronique des
+                        documents contractuels</h2>
+                </div>
+            </div>
+            <div class="row" *ngIf="adherer">
+                <div class="col-md-5"><h2 class="texte-adhere">Avez-vous déjà adhéré à la CIMR ?</h2></div>
+                <div class="col-md-1"><h2 id="oui" class="adhereoui" (click)="ouiAdherent()">Oui</h2></div>
+                <div class="col-md-1"><h2 id="non"  class="adherenon" (click)="nonAdherent()">Non</h2></div>
+            </div>
+            <div class="row" *ngIf="!adherer">
+                <div class="col-md-7"><h2 class="texte-adhere">Vous êtes une personne physique ou morale ?</h2></div>
+                <div class="col-md-1"><h2 id="p" class="adhereoui physique" (click)="physique()">Physique</h2></div>
+                <div class="col-md-1"><h2 id="m" class="adherenon morale" (click)="morale()">Morale</h2></div>
+            </div>
+            <div class="simul-adher" *ngIf="adherer">
+                <div class="simule">Simuler</div>
+                <div class="adhere" (click)="suivant()">Suivant</div>
+            </div>
+            <div class="simul-adher" *ngIf="!adherer">
+                <div class="simule">Simuler</div>
+                <div class="adhere" (click)="adhesion()">Adherer</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="assiste">
+        <button>Assistance</button>
+    </div>
+</div>

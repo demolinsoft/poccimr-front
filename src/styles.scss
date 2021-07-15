@@ -1,0 +1,415 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "PTSans Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("PTSans Regular"), url("./assets/fonts/PT_Sans/PTSans-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "PTSans Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("PTSans Bold"), url("./assets/fonts/PT_Sans/PTSans-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Heebo Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Heebo Regular"), url("./assets/fonts/Heebo-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Heebo Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Heebo Thin"), url("./assets/fonts/Heebo-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Heebo Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Heebo Light"), url("./assets//fonts/Heebo-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Heebo Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Heebo Medium"), url("./assets/fonts/Heebo-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Heebo Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Heebo Bold"), url("./assets/fonts/Heebo-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Heebo ExtraBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Heebo ExtraBold"), url("./assets/fonts/Heebo-ExtraBold.woff") format("woff");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Roboto Bold"), url("./assets/fonts/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Heebo Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Heebo Black"), url("./assets/fonts/HelveticaNeueLTStd-Bd.otf") format("otf");
+}
+@font-face {
+    font-family: "HelveticaNeueLTStd-Bd";
+    font-style: normal;
+    font-weight: normal;
+    src: local("HelveticaNeueLTStd-Bd"), url("./assets/fonts/HelveticaNeueLTStd-Bd.otf") format("otf");
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Roboto Bold", sans-serif;
+    background-color: #f6f6f6 !important;
+}
+
+.container-web {
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+    .home {
+        height: auto;
+        background-color: #f6f6f6;
+    }
+
+    .logo {
+        height: 103px;
+        text-align: center;
+        padding-top: 18px;
+        opacity: 0.3;
+        border: solid 1px #d8d8d8;
+    }
+    .container-fluid {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .entete {
+        // background-color: red;
+        width: 100%;
+        margin-top: 16px;
+        .imag {
+            margin-right: 3%;
+        }
+        .imag1 {
+            margin-right: 5%;
+        }
+        .cercle {
+            background: url(./assets/images/imag4.png) no-repeat center;
+            height: 223px;
+            background-size: 128%;
+            padding-left: 75px;
+            padding-top: 24px;
+            h2 {
+                font-family: "Heebo Bold", serif;
+                font-size: 31px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.04;
+                letter-spacing: 1.3px;
+                color: #000000;
+                width: 347px;
+            }
+        }
+    }
+    .container-body {
+        background: url(./assets/images/carre.svg) no-repeat center;
+        height: 484px;
+        background-size: cover;
+        width: 100%;
+        padding-top: 12px;
+        margin-top: 53px;
+        // background-color: #d8d8d8;
+
+        .body-texte {
+            font-family: "Heebo Bold", serif;
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.15px;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 37px;
+        }
+
+        .carre {
+            // margin-right: 6%;
+            img {
+                width: 100%;
+                height: 105px;
+            }
+        }
+        .carre1 {
+            margin-left: 4%;
+            img {
+                width: 100%;
+                height: 105px;
+            }
+        }
+        .line {
+            width: 50%;
+            height: 1px;
+            margin: 34.5px 238px 25.2px 242px;
+            border: dotted 0.5px #fff;
+        }
+        .titre-bas {
+            font-family: "Heebo Bold", serif;
+            font-size: 28px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.18px;
+            color: #000000;
+            text-align: center;
+            padding: 0px 100px 0px 100px;
+        }
+        .bouton {
+            text-align: center;
+            .poursui {
+                // width: 330px;
+                // height: 60px;
+                // margin: 31.3px 401px 0 408px;
+                padding: 16px 100px;
+                border-radius: 20px;
+                background-color: #f8b322;
+                font-size: 24px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.65px;
+                color: #000000;
+                border: none;
+            }
+        }
+    }
+
+    .container-carre {
+        background: url(./assets/images/carre1.svg) no-repeat center;
+        height: 353px;
+        background-size: cover;
+        padding-top: 16px;
+        padding-left: 35px;
+        margin-top: 66px;
+        margin-bottom: 92px;
+        .carre2 {
+            h2 {
+                font-size: 10px;
+                display: flex;
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.09px;
+                color: #989898;
+                p.chiffre {
+                    width: 22px;
+                    height: 22px;
+                    margin: -1px 7px 0 0;
+                    padding: 2px 6px 4px;
+                    border-radius: 19px;
+                    border: solid 1px #989898;
+                }
+                p.p2 {
+                    margin-top: 6px;
+                }
+            }
+            .ligne1 {
+                margin-top: 29px;
+            }
+        }
+        .texte-adhere {
+            font-size: 24px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.07px;
+            color: #000000;
+            margin-left: 18px;
+        }
+        .adhereoui {
+            width: 60px;
+            height: 47px;
+            margin: 9px 40px 0 0;
+            padding: 13px 14px;
+            border-radius: 16px;
+            border: solid 2px #000000;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.43px;
+            color: #000000;
+            cursor: pointer;
+        }
+        div.adhereoui:focus {
+            color: #fff;
+            background-color: #000000;
+        }
+        .adherenon {
+            width: 60px;
+            height: 47px;
+            margin: 9px 40px 0 0;
+            padding: 13px 14px;
+            border-radius: 16px;
+            border: solid 2px #000000;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.43px;
+            color: #fff;
+            background-color: #000000;
+            cursor: pointer;
+        }
+        .physique {
+            width: 106px;
+            height: 47px;
+            margin-left: -58px;
+        }
+        .morale {
+            width: 106px;
+            height: 47px;
+            text-align: center;
+        }
+        .simul-adher {
+            display: flex;
+            margin-left: 27%;
+            margin-top: 6%;
+            .simule {
+                width: 195px;
+                height: 60px;
+                margin: 0 80px 0 0;
+                padding: 16px 50px;
+                border-radius: 20px;
+                border: solid 2px #000000;
+                font-size: 24px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.65px;
+                color: #000000;
+                cursor: pointer;
+            }
+            .adhere {
+                width: 195px;
+                height: 60px;
+                margin: 0 80px 0 0;
+                padding: 16px 50px;
+                border-radius: 20px;
+                border: solid 2px #f8b322;
+                font-size: 24px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.65px;
+                color: #000000;
+                background-color: #f8b322;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.assiste {
+    display: flex;
+    float: right;
+    button {
+        width: 100%;
+        height: 60px;
+        margin: 20px 24px 0 1204px;
+        padding: 16px 40px;
+        border-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+        background-color: #78ad1a;
+        border: none;
+        font-family: "Heebo Bold", serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.65px;
+        color: #ffffff;
+    }
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none !important;
+    border-bottom: none;
+}
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: #000000;
+}
+.mat-form-field.mat-focused .mat-form-field-label {
+    color: #000000;
+}
+/* Border */
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: white;
+}
+.mat-form-field-underline {
+    display: none;
+}
+.mat-form-field-infix {
+    margin-top: -6px !important;
+}
+.mat-input-element {
+    color: #000000 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    letter-spacing: 0.43px !important;
+}
+.date {
+    .mat-form-field-infix {
+        width: 264px !important;
+    }
+}
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+.mat-form-field-empty.mat-form-field-label {
+    background-color: white !important;
+}
+.slt {
+    
+    .cdk-overlay-pane {
+        margin-top: 41px !important;
+    }
+}
+.mat-form-field {
+    width: 94% !important;
+}
