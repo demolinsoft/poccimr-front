@@ -12,4 +12,4 @@ FROM registry.access.redhat.com/ubi8/nodejs-12
 COPY . .
 RUN npm install -g @angular/cli
 RUN npm install 
-CMD ng serve --host 0.0.0.0 --port 7000
+CMD ng serve --host 0.0.0.0 --port 7000 --disable-host-check
