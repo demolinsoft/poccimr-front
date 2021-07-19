@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
-  urlAdhesion: 'http://51.68.38.25:1234/adhesion/contrat-groupe/',
-  urlSouscription: 'http://51.68.38.25:8500/souscription/contrat-groupe/'
+  urlAdhesion: 'http://adhesion-ms-cimr-poc.apps.eu46.prod.nextcle.com/adhesion/contrat-groupe/',
+  urlSouscription: 'http://souscription-ms-cimr-poc.apps.eu46.prod.nextcle.com/souscription/contrat-groupe/'
   // urlAdhesion: 'http://france.gateway.webmethodscloud.com/gateway/CIMR/1/',
   // urlSouscription: 'http://france.gateway.webmethodscloud.com/gateway/CIMR/1/'
 };
